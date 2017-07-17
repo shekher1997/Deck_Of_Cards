@@ -11,8 +11,8 @@ random.shuffle(deck)
 
 if ans == 'Y' or ans == 'y':
     print("\nYou got: ",deck[1][0], "of" , deck[1][1] , "\n")
+    exit()
 else:
     print("\nBad input, closing program.\n")
-    exit()
-      
+    exit()   
 
